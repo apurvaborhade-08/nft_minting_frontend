@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.btns,
+.landing {
+    font-family: "Rancho";
+}
+
+/* Header */
+.header {
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-size: larger;
+    font-family: "Nosifer";
+}
+
+.btns {
+    font-size: x-large;
+}
+
+.btns>a {
+    margin: 0rem 1rem;
+}
+
+.mint-btn {
+    background: #fff;
+    min-width: 100px;
+    color: #000;
+}
+
+/* Landing */
+
+.landing {
+    color: white;
+}
+
+.tagline {
+    font-size: 5rem;
+}
+
+.info {
+    max-width: 43rem;
+}
+
+.showcase-art {
+    margin: 2rem 0rem;
+}
+
+.gallery {
+    color: #fff;
+}
